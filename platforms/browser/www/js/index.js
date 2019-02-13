@@ -54,3 +54,8 @@ function doThis(){
     document.getElementById('placeholder').innerHTML = text;
 
 }
+
+function shake(){
+    navigator.vibrate(1000);
+}
+
